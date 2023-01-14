@@ -4,15 +4,15 @@ Simple Ray Tracer implemented by Python from scratch. This program is using
 reverse tracking ray trace and Phong Illumination Model. 
 Input file is formatted text file, and output file format is ppm(P3)
 
-Usage:
+- Usage:
     ```
     Python3 RayTracer.py InputFileName
     ```
-Feature
+- Feature
     - Support non-uniform ellipsoid
     - Support multiple light source
 
-Input File Format
+- Input File Format
     - The near plane**, left**, right**, top**, and bottom**
     - The resolution of the image nColumns* X nRows*
     - The position** and scaling** (non-uniform), color***, Ka***, Kd***, Ks***, Kr*** and the specular exponent n* of a sphere
